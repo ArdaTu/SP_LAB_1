@@ -1,0 +1,54 @@
+Game: Connect4, Players: 2, Mode: EXHAUSTIVE, TotalGames: 996, GamesPerMatchup: 83
+Basic MCTS got 498.00 points. Basic MCTS won 50.0% of the 996 games of the tournament. Basic MCTS won 100.0% of the 498 games it played during the tournament.
+Basic MCTS got a mean score of 1.00.
+Basic MCTS won 100.0% of the 166 games against RandomPlayer.
+Basic MCTS won 100.0% of the 166 games against RMHC.
+Basic MCTS won NaN% of the 0 games against SuperOSLA.
+
+RandomPlayer got 78.00 points. RandomPlayer won 7.8% of the 996 games of the tournament. RandomPlayer won 15.7% of the 498 games it played during the tournament.
+RandomPlayer got a mean score of -0.69.
+RandomPlayer won 0.0% of the 166 games against Basic MCTS.
+RandomPlayer won 23.5% of the 166 games against RMHC.
+RandomPlayer won NaN% of the 0 games against SuperOSLA.
+
+RMHC got 203.00 points. RMHC won 20.4% of the 996 games of the tournament. RMHC won 40.8% of the 498 games it played during the tournament.
+RMHC got a mean score of -0.18.
+RMHC won 0.0% of the 166 games against Basic MCTS.
+RMHC won 76.5% of the 166 games against RandomPlayer.
+RMHC won NaN% of the 0 games against SuperOSLA.
+
+SuperOSLA got 0.00 points. SuperOSLA won 0.0% of the 996 games of the tournament. SuperOSLA won NaN% of the 0 games it played during the tournament.
+SuperOSLA got a mean score of NaN.
+SuperOSLA won NaN% of the 0 games against Basic MCTS.
+SuperOSLA won NaN% of the 0 games against RandomPlayer.
+SuperOSLA won NaN% of the 0 games against RMHC.
+
+---- Ranking ---- (+/- are standard errors on the mean calculated using a Normal approximation) 
+Basic MCTS: Win rate 1.00 +/- 0.000	Mean Ordinal 1.00 +/- 0.00
+OSLA: Win rate 0.44 +/- 0.022	Mean Ordinal 1.56 +/- 0.02
+RMHC: Win rate 0.41 +/- 0.022	Mean Ordinal 1.59 +/- 0.02
+RandomPlayer: Win rate 0.16 +/- 0.016	Mean Ordinal 1.84 +/- 0.02
+
+
+---- Alpha Rank ----  
+Basic MCTS: Alpha-rank by Win 1.00	Alpha-rank by Ordinal 1.00
+OSLA: Alpha-rank by Win 0.00	Alpha-rank by Ordinal 0.00
+RMHC: Alpha-rank by Win 0.00	Alpha-rank by Ordinal 0.00
+RandomPlayer: Alpha-rank by Win 0.00	Alpha-rank by Ordinal 0.00
+
+Game: Connect4, Players: 2, Mode: EXHAUSTIVE, TotalGames: 100, GamesPerMatchup: 50
+mcts got 100.00 points. mcts won 100.0% of the 100 games of the tournament. mcts won 100.0% of the 100 games it played during the tournament.
+mcts got a mean score of 1.00.
+mcts won NaN% of the 0 games against osla.
+
+osla got 0.00 points. osla won 0.0% of the 100 games of the tournament. osla won NaN% of the 0 games it played during the tournament.
+osla got a mean score of NaN.
+osla won NaN% of the 0 games against mcts.
+
+---- Ranking ---- (+/- are standard errors on the mean calculated using a Normal approximation) 
+mcts: Win rate 1.00 +/- 0.000	Mean Ordinal 1.00 +/- 0.00
+OSLA: Win rate 0.00 +/- 0.000	Mean Ordinal 2.00 +/- 0.00
+
+
+---- Alpha Rank ----  
+
